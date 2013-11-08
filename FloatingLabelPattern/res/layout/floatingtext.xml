@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/floating_text"
+        android:layout_width="match_parent"
+        android:text="Floating text"
+        android:paddingLeft="8dp"
+        android:visibility="invisible"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/floating_text"
+        android:hint="Text" />
+
+</RelativeLayout>

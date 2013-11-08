@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="floatlabel">
+        <attr name="text" format="string" />
+        <attr name="text_color" format="integer" />
+        <attr name="text_color_disabled" format="integer" />
+        <attr name="text_size" format="integer" />
+        <attr name="input_type" format="integer" />
+    </declare-styleable>
+</resources>
